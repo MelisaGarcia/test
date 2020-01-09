@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+}
+#first {
+  width: 100vw;
+  height: 100vh;
+  background: url(../IMAGES/Background.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+#menu {
+  position: fixed;
+  top: 20px;
+  right: 100px;
+  color: white;
+  font-size: 1.5em;
+  width: 400px;
+  z-index: 1000;
+}
+menu li,
+a {
+  text-decoration: none;
+  margin-right: 20px;
+  display: inline-block;
+  color: white;
+}
+
+#menu a li:hover {
+    color: rgb(3, 49, 92);
+}
+#second {
+  position: relative;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+}
